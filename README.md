@@ -1,2 +1,5 @@
 # RandomNumberIMG
-**Olá, :v: este é um exemplo de recursão em Java.**
+**Hi :v: 
+This is an example of recursion in Java.**
+
+The app is builded for only educational purposes.
