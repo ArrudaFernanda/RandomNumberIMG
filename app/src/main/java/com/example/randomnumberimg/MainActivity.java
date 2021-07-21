@@ -1,5 +1,6 @@
 /**
- * Neste exemplo de gerador de números randomicos, usamos conceito de recursão.*/
+ * Neste exemplo de gerador de números randomicos, usamos conceito de recursão.
+ */
 
 package com.example.randomnumberimg;
 
@@ -8,7 +9,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         img2 = findViewById(R.id.img2);
         img3 = findViewById(R.id.img3);
         img4 = findViewById(R.id.img4);
+
         btnGerar = findViewById(R.id.btnGerar);
 
         btnGerar.setOnClickListener(new View.OnClickListener() {
@@ -35,10 +36,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     public void randomImage(){
         Random random = new Random();
-        int val1 = random.nextInt(5);//Gera números randomicos de 0 a 4
+        int val1 = random.nextInt(5);
         int val2 = random.nextInt(5);
         int val3 = random.nextInt(5);
         int val4 = random.nextInt(5);
